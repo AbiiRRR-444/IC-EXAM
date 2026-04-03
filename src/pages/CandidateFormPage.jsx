@@ -7,22 +7,27 @@ import Navbar from "../components/Navbar";
 import GlassCard from "../components/GlassCard";
 
 const fields = [
-  { name: "fullName", label: "Full Name", placeholder: "e.g. Flight Lieutenant John Smith", icon: User, type: "text" },
-  { name: "serviceNumber", label: "Service / Roll Number", placeholder: "e.g. BAF-2024-0042", icon: Hash, type: "text" },
-  { name: "rank", label: "Current Rank / Position", placeholder: "e.g. Flying Officer", icon: BookOpen, type: "text" },
-  { name: "unit", label: "Unit / Wing", placeholder: "e.g. 5 Squadron, Dhaka", icon: Building, type: "text" },
+  { name: "fullName", label: "Full Name", placeholder: "e.g. Cadet Rahim/Rahima", icon: User, type: "text" },
+  { name: "serviceNumber", label: "Cadet Number", placeholder: "e.g. 25561200", icon: Hash, type: "text" },
+  { name: "rank", label: "Current Rank", placeholder: "e.g. Cadet/Cadet LCPL", icon: BookOpen, type: "text" },
+  { name: "unit", label: "Institution / Unit", placeholder: "e.g. BNCC Air Wing", icon: Building, type: "text" },
 ];
 
 export default function CandidateFormPage() {
   const navigate = useNavigate();
-  const [form, setForm] = useState({ fullName: "", serviceNumber: "", rank: "", unit: "" });
+  const [form, setForm] = useState({
+    fullName: "",
+    serviceNumber: "",
+    rank: "",
+    unit: "",
+  });
   const [errors, setErrors] = useState({});
   const [agreed, setAgreed] = useState(false);
 
   const validate = () => {
     const e = {};
     if (!form.fullName.trim()) e.fullName = "Full name is required.";
-    if (!form.serviceNumber.trim()) e.serviceNumber = "Service number is required.";
+    if (!form.serviceNumber.trim()) e.serviceNumber = "Cadet number is required.";
     if (!form.rank.trim()) e.rank = "Rank is required.";
     if (!form.unit.trim()) e.unit = "Unit is required.";
     if (!agreed) e.agreed = "You must acknowledge the exam rules.";
@@ -31,8 +36,11 @@ export default function CandidateFormPage() {
 
   const handleSubmit = () => {
     const e = validate();
-    if (Object.keys(e).length > 0) { setErrors(e); return; }
-    // Save candidate info in session
+    if (Object.keys(e).length > 0) {
+      setErrors(e);
+      return;
+    }
+
     sessionStorage.setItem("airforce_candidate", JSON.stringify(form));
     navigate("/exam");
   };
@@ -43,7 +51,6 @@ export default function CandidateFormPage() {
       <Navbar subtitle="CANDIDATE REGISTRATION" />
 
       <div className="relative z-20 pt-24 pb-12 px-4 flex flex-col items-center">
-        {/* Header */}
         <motion.div
           className="text-center mb-8"
           initial={{ opacity: 0, y: -20 }}
@@ -59,7 +66,6 @@ export default function CandidateFormPage() {
           </p>
         </motion.div>
 
-        {/* Form card */}
         <GlassCard className="w-full max-w-lg p-6 sm:p-8" glow>
           <div className="space-y-5">
             {fields.map((f, i) => (
@@ -92,15 +98,16 @@ export default function CandidateFormPage() {
                 {errors[f.name] && (
                   <motion.p
                     className="mt-1 font-mono text-xs text-red-400 flex items-center gap-1"
-                    initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
                   >
-                    <AlertCircle className="w-3 h-3" />{errors[f.name]}
+                    <AlertCircle className="w-3 h-3" />
+                    {errors[f.name]}
                   </motion.p>
                 )}
               </motion.div>
             ))}
 
-            {/* Acknowledgment checkbox */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -109,11 +116,18 @@ export default function CandidateFormPage() {
             >
               <label className="flex items-start gap-3 cursor-pointer">
                 <div
-                  onClick={() => { setAgreed(!agreed); setErrors((p) => ({ ...p, agreed: undefined })); }}
+                  onClick={() => {
+                    setAgreed(!agreed);
+                    setErrors((p) => ({ ...p, agreed: undefined }));
+                  }}
                   className={`flex-shrink-0 mt-0.5 w-5 h-5 rounded border-2 flex items-center justify-center transition-all
                     ${agreed ? "bg-cyan-400 border-cyan-400" : "border-slate-500 bg-transparent"}`}
                 >
-                  {agreed && <svg className="w-3 h-3 text-navy-950" fill="none" viewBox="0 0 12 12"><path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>}
+                  {agreed && (
+                    <svg className="w-3 h-3 text-navy-950" fill="none" viewBox="0 0 12 12">
+                      <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  )}
                 </div>
                 <span className="font-body text-sm text-slate-300">
                   I acknowledge the exam rules and understand that switching tabs, minimizing the window, or exiting fullscreen will result in <span className="text-red-400 font-semibold">immediate auto-submission</span> of my exam.
@@ -121,13 +135,13 @@ export default function CandidateFormPage() {
               </label>
               {errors.agreed && (
                 <p className="mt-2 font-mono text-xs text-red-400 flex items-center gap-1">
-                  <AlertCircle className="w-3 h-3" />{errors.agreed}
+                  <AlertCircle className="w-3 h-3" />
+                  {errors.agreed}
                 </p>
               )}
             </motion.div>
           </div>
 
-          {/* Submit */}
           <motion.button
             onClick={handleSubmit}
             whileHover={{ scale: 1.02 }}
@@ -143,10 +157,11 @@ export default function CandidateFormPage() {
           </motion.button>
         </GlassCard>
 
-        {/* Warning banner */}
         <motion.div
           className="mt-6 max-w-lg w-full rounded-xl border border-yellow-500/30 bg-yellow-500/5 px-5 py-3 flex items-center gap-3"
-          initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
         >
           <AlertCircle className="w-5 h-5 text-yellow-400 flex-shrink-0" />
           <p className="font-mono text-xs text-yellow-300/80">
