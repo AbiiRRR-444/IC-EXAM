@@ -42,8 +42,8 @@ export default function LandingPage() {
             <div className="flex items-center gap-3">
               <Shield className="w-7 h-7 text-cyan-400" />
               <div>
-                <span className="font-display text-sm font-bold text-cyan-300 tracking-widest uppercase">AirForce Exam Portal</span>
-                <div className="font-mono text-xs text-metal-500 tracking-wider">SECURE ASSESSMENT SYSTEM v2.4</div>
+                <span className="font-display text-sm font-bold text-cyan-300 tracking-widest uppercase">IN-CHARGE Exam Portal</span>
+                <div className="font-mono text-xs text-metal-500 tracking-wider"> USING SECURE ASSESSMENT SYSTEM: V.FORTYTHREE</div>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -81,15 +81,15 @@ export default function LandingPage() {
               transition={{ duration: 0.7, delay: 0.3 }}
             >
               <div className="font-mono text-xs text-cyan-400/70 tracking-[0.3em] mb-3 uppercase">
-                Bangladesh Air Force
+                BNCC AIR FORCE WING: BMARPC CONTINGENT
               </div>
               <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-black text-white leading-tight tracking-tight mb-3"
                 style={{ textShadow: "0 0 40px rgba(34,211,238,0.3)" }}>
-                SELECTION<br />
+                IC SELECTION<br />
                 <span className="text-cyan-400">ASSESSMENT</span>
               </h1>
               <p className="font-body text-metal-400 text-base sm:text-lg max-w-xl mx-auto leading-relaxed">
-                Authorized personnel only. This secure platform is used for official recruitment and promotion assessments.
+                Authorized personnel only. This platform is only for BNCC AIR: 12FL 56SQN.
               </p>
             </motion.div>
           </div>
@@ -164,7 +164,7 @@ export default function LandingPage() {
               }}
             >
               <span className="relative z-10 flex items-center gap-2">
-                Proceed to Registration
+                CLICK HERE TO START
                 <ChevronRight className="w-5 h-5" />
               </span>
               <motion.div
@@ -195,7 +195,7 @@ export default function LandingPage() {
         {/* Bottom bar */}
         <div className="border-t border-cyan-500/10 py-3 px-6">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
-            <span className="font-mono text-xs text-metal-600">CLASSIFIED — AUTHORIZED USE ONLY</span>
+            <span className="font-mono text-xs text-metal-600">CLASSIFIED — PRIVATE SERVER SYSTEM OF ABIR FORTYTHREE</span>
             <span className="font-mono text-xs text-metal-600">ENC: AES-256 | SESSION MONITORED</span>
           </div>
         </div>
