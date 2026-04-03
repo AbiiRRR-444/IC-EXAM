@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "type": "mcq",
+    "question": "What is the primary role of an air superiority fighter?",
+    "options": [
+      "Close air support of ground troops",
+      "Gaining and maintaining control of airspace",
+      "Long-range strategic bombing",
+      "Maritime patrol and surveillance"
+    ],
+    "correctAnswer": "Gaining and maintaining control of airspace"
+  },
+  {
+    "id": 2,
+    "type": "mcq",
+    "question": "Identify the rank badge shown in the image.",
+    "image": "/images/rank-badge-1.png",
+    "options": [
+      "Flying Officer",
+      "Squadron Leader",
+      "Group Captain",
+      "Air Marshal"
+    ],
+    "correctAnswer": "Squadron Leader"
+  },
+  {
+    "id": 3,
+    "type": "mcq",
+    "question": "Identify the aircraft shown in the image.",
+    "image": "/images/aircraft-fighter.png",
+    "options": [
+      "F-16 Fighting Falcon",
+      "F/A-18 Hornet",
+      "Eurofighter Typhoon",
+      "Dassault Rafale"
+    ],
+    "correctAnswer": "F-16 Fighting Falcon"
+  },
+  {
+    "id": 4,
+    "type": "mcq",
+    "question": "What does the acronym 'IFR' stand for in aviation?",
+    "options": [
+      "Instrument Flight Rules",
+      "Integrated Flight Response",
+      "Internal Fuel Reserve",
+      "In-Flight Refueling"
+    ],
+    "correctAnswer": "Instrument Flight Rules"
+  },
+  {
+    "id": 5,
+    "type": "mcq",
+    "question": "Which of the following is a stealth aircraft?",
+    "options": [
+      "B-52 Stratofortress",
+      "C-130 Hercules",
+      "B-2 Spirit",
+      "A-10 Thunderbolt"
+    ],
+    "correctAnswer": "B-2 Spirit"
+  },
+  {
+    "id": 6,
+    "type": "mcq",
+    "question": "The phonetic alphabet word for the letter 'A' in NATO communications is:",
+    "options": [
+      "Alfa",
+      "Apple",
+      "Arrow",
+      "Alpha"
+    ],
+    "correctAnswer": "Alfa"
+  },
+  {
+    "id": 7,
+    "type": "mcq",
+    "question": "What is 'Mach 1' equivalent to?",
+    "options": [
+      "1000 km/h",
+      "Speed of sound (~343 m/s at sea level)",
+      "Speed of light",
+      "1200 km/h at any altitude"
+    ],
+    "correctAnswer": "Speed of sound (~343 m/s at sea level)"
+  },
+  {
+    "id": 8,
+    "type": "mcq",
+    "question": "In aviation, what does 'ATC' stand for?",
+    "options": [
+      "Automatic Thrust Control",
+      "Air Traffic Control",
+      "Airborne Tactical Command",
+      "Avionics Test Center"
+    ],
+    "correctAnswer": "Air Traffic Control"
+  },
+  {
+    "id": 9,
+    "type": "mcq",
+    "question": "Which instrument indicates an aircraft's attitude relative to the horizon?",
+    "options": [
+      "Altimeter",
+      "Airspeed Indicator",
+      "Attitude Indicator (Artificial Horizon)",
+      "Vertical Speed Indicator"
+    ],
+    "correctAnswer": "Attitude Indicator (Artificial Horizon)"
+  },
+  {
+    "id": 10,
+    "type": "mcq",
+    "question": "What is the standard distress frequency used internationally in aviation?",
+    "options": [
+      "121.5 MHz",
+      "243.0 MHz",
+      "156.8 MHz",
+      "118.0 MHz"
+    ],
+    "correctAnswer": "121.5 MHz"
+  },
+  {
+    "id": 11,
+    "type": "short",
+    "question": "Briefly explain the concept of 'situational awareness' in military aviation and why it is critical to mission success.",
+    "maxMarks": 5
+  },
+  {
+    "id": 12,
+    "type": "short",
+    "question": "What is the difference between VFR (Visual Flight Rules) and IFR (Instrument Flight Rules)? Give one example of when each would be used.",
+    "maxMarks": 5
+  },
+  {
+    "id": 13,
+    "type": "short",
+    "question": "Describe the role of a Wing Commander in an air force unit structure. What are their primary responsibilities?",
+    "maxMarks": 5
+  },
+  {
+    "id": 14,
+    "type": "short",
+    "question": "What is radar, and how does it assist military aircraft in combat operations? Name two specific uses.",
+    "maxMarks": 5
+  },
+  {
+    "id": 15,
+    "type": "short",
+    "question": "Explain what 'sortie' means in military aviation. How does sortie rate affect operational effectiveness?",
+    "maxMarks": 5
+  },
+  {
+    "id": 16,
+    "type": "long",
+    "question": "Discuss the evolution of air power from World War I to the modern era. How have advances in technology transformed the role of air forces in warfare? Include specific examples of aircraft, technologies, and strategic doctrines in your answer.",
+    "maxMarks": 10
+  },
+  {
+    "id": 17,
+    "type": "long",
+    "question": "You are an officer in an air force unit and you receive intelligence that a hostile aircraft has entered restricted airspace. Describe the standard response procedure, the chain of command involved, the rules of engagement considerations, and how you would ensure both mission success and the prevention of civilian harm. Justify your decisions at each step.",
+    "maxMarks": 10
+  }
+]

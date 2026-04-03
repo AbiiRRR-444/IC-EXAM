@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   GLOBAL BASE STYLES
+   ============================================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #020817;
+}
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  color: #e2e8f0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   SCROLLBAR STYLING
+   ============================================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a1628;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(34, 211, 238, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(34, 211, 238, 0.6);
+}
+
+/* ============================================================
+   SELECTION STYLING
+   ============================================================ */
+
+::selection {
+  background: rgba(34, 211, 238, 0.3);
+  color: #ffffff;
+}
+
+/* ============================================================
+   GLASSMORPHISM UTILITY
+   ============================================================ */
+
+.glass {
+  background: rgba(10, 22, 40, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(34, 211, 238, 0.15);
+}
+
+/* ============================================================
+   GLOW EFFECTS
+   ============================================================ */
+
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.4), 0 0 60px rgba(34, 211, 238, 0.1);
+}
+
+.glow-text-cyan {
+  text-shadow: 0 0 20px rgba(34, 211, 238, 0.6), 0 0 40px rgba(34, 211, 238, 0.3);
+}
+
+/* ============================================================
+   HUD SCANLINE OVERLAY (optional aesthetic layer)
+   ============================================================ */
+
+.hud-scanlines {
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.04) 2px,
+    rgba(0, 0, 0, 0.04) 4px
+  );
+  pointer-events: none;
+}
+
+/* ============================================================
+   CUSTOM CHECKBOX STYLING
+   ============================================================ */
+
+input[type="checkbox"] {
+  accent-color: #22d3ee;
+}
+
+/* ============================================================
+   PREVENT TEXT SELECTION IN EXAM
+   ============================================================ */
+
+.exam-mode {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ============================================================
+   TAILWIND CUSTOM BACKGROUNDS
+   ============================================================ */
+
+.bg-navy-950 {
+  background-color: #020817;
+}
+.bg-navy-900 {
+  background-color: #050e1f;
+}
+.bg-navy-800 {
+  background-color: #0a1628;
+}
