@@ -2,64 +2,62 @@
   {
     "id": 1,
     "type": "mcq",
-    "question": "What is the primary role of an air superiority fighter?",
+    "question": "In air combat, “DOGFIGHT” refers to",
     "options": [
-      "Close air support of ground troops",
-      "Gaining and maintaining control of airspace",
-      "Long-range strategic bombing",
-      "Maritime patrol and surveillance"
+      "Ground attack mission",
+      "Close-range aerial combat",
+      "Bombing mission",
+      "Close-range aerial combat"
     ],
-    "correctAnswer": "Gaining and maintaining control of airspace"
+    "correctAnswer": "Close-range aerial combat"
   },
   {
     "id": 2,
     "type": "mcq",
-    "question": "Identify the rank badge shown in the image.",
-    "image": "/images/rank-badge-1.png",
+    "question": "What is the highest officer rank in Bangladesh Army?",
     "options": [
-      "Flying Officer",
-      "Squadron Leader",
-      "Group Captain",
-      "Air Marshal"
+      "General Major",
+      "General",
+      "Army Head",
+      "Field Marshal"
     ],
-    "correctAnswer": "Squadron Leader"
+    "correctAnswer": "Field Marshal"
   },
   {
     "id": 3,
     "type": "mcq",
-    "question": "Identify the aircraft shown in the image.",
-    "image": "/images/aircraft-fighter.png",
+    "question": "What is the current rank of the DD (Deputy Director) of the BNCC Air Wing?",
     "options": [
-      "F-16 Fighting Falcon",
-      "F/A-18 Hornet",
-      "Eurofighter Typhoon",
-      "Dassault Rafale"
+      "Flying Officer",
+      "Squadron Leader",
+      "Wing Commander",
+      "Group Captain"
     ],
-    "correctAnswer": "F-16 Fighting Falcon"
+    "correctAnswer": "Squadron Leader"
   },
   {
     "id": 4,
     "type": "mcq",
-    "question": "What does the acronym 'IFR' stand for in aviation?",
+    "question": "What is the national motto of Bangladesh?",
     "options": [
-      "Instrument Flight Rules",
-      "Integrated Flight Response",
-      "Internal Fuel Reserve",
-      "In-Flight Refueling"
+      "Joy Bangla",
+      "Bangladesh Jindabad",
+      "Long Live Bangladesh",
+      "Friendship to all, malice toward none"
     ],
-    "correctAnswer": "Instrument Flight Rules"
+    "correctAnswer": "Friendship to all, malice toward none"
   },
   {
     "id": 5,
     "type": "mcq",
-    "question": "Which of the following is a stealth aircraft?",
+    "question": "The Bangladesh Air Force primarily operates which type of fighter aircraft currently?",
     "options": [
-      "B-52 Stratofortress",
+      "F-16 Fighting Falcon",
       "C-130 Hercules",
-      "B-2 Spirit",
+      "F-7 series",
       "A-10 Thunderbolt"
     ],
-    "correctAnswer": "B-2 Spirit"
+    "correctAnswer": "F-7 series"
   },
   {
     "id": 6,
@@ -76,91 +74,91 @@
   {
     "id": 7,
     "type": "mcq",
-    "question": "What is 'Mach 1' equivalent to?",
+    "question": "How many type of merch there in BAF?",
     "options": [
-      "1000 km/h",
-      "Speed of sound (~343 m/s at sea level)",
-      "Speed of light",
-      "1200 km/h at any altitude"
+      "1",
+      "2",
+      "3",
+      "11"
     ],
-    "correctAnswer": "Speed of sound (~343 m/s at sea level)"
+    "correctAnswer": "3"
   },
   {
     "id": 8,
     "type": "mcq",
-    "question": "In aviation, what does 'ATC' stand for?",
+    "question": "Who is the current head of Bangladesh Armed Forces?",
     "options": [
-      "Automatic Thrust Control",
-      "Air Traffic Control",
-      "Airborne Tactical Command",
-      "Avionics Test Center"
+      "General Wakar-Uz-Zaman",
+      "Taique Rahman",
+      "Md. Shahbuddin",
+      "Salahuddin Ahmed"
     ],
-    "correctAnswer": "Air Traffic Control"
+    "correctAnswer": "Md. Shahbuddin"
   },
   {
     "id": 9,
     "type": "mcq",
-    "question": "Which instrument indicates an aircraft's attitude relative to the horizon?",
+    "question": "In which branch of Air Force; Birshreshtha Matiur Rahman was commisioned in?",
     "options": [
-      "Altimeter",
-      "Airspeed Indicator",
-      "Attitude Indicator (Artificial Horizon)",
-      "Vertical Speed Indicator"
+      "Administration",
+      "Finance",
+      "Commercial Trainee",
+      "General Duty (Pilot)"
     ],
-    "correctAnswer": "Attitude Indicator (Artificial Horizon)"
+    "correctAnswer": "General Duty (Pilot)"
   },
   {
     "id": 10,
     "type": "mcq",
-    "question": "What is the standard distress frequency used internationally in aviation?",
+    "question": "What is the name of One Star Rank in BAF?",
     "options": [
-      "121.5 MHz",
-      "243.0 MHz",
-      "156.8 MHz",
-      "118.0 MHz"
+      "Air Commodore",
+      "Air Marshal",
+      "Marshal of the Air Force",
+      "Group Captain"
     ],
-    "correctAnswer": "121.5 MHz"
+    "correctAnswer": "Air Commodore"
   },
   {
     "id": 11,
     "type": "short",
-    "question": "Briefly explain the concept of 'situational awareness' in military aviation and why it is critical to mission success.",
+    "question": "Briefly explain the concept of 'BNCC' in your word.",
     "maxMarks": 5
   },
   {
     "id": 12,
     "type": "short",
-    "question": "What is the difference between VFR (Visual Flight Rules) and IFR (Instrument Flight Rules)? Give one example of when each would be used.",
+    "question": "Why did you joined BNCC?",
     "maxMarks": 5
   },
   {
     "id": 13,
     "type": "short",
-    "question": "Describe the role of a Wing Commander in an air force unit structure. What are their primary responsibilities?",
+    "question": "What is the best thing you learned from BNCC?",
     "maxMarks": 5
   },
   {
     "id": 14,
     "type": "short",
-    "question": "What is radar, and how does it assist military aircraft in combat operations? Name two specific uses.",
+    "question": "Define the defination of 'Drill'.",
     "maxMarks": 5
   },
   {
     "id": 15,
     "type": "short",
-    "question": "Explain what 'sortie' means in military aviation. How does sortie rate affect operational effectiveness?",
+    "question": "What is the meaning of 'Chain Of Command' to you?",
     "maxMarks": 5
   },
   {
     "id": 16,
     "type": "long",
-    "question": "Discuss the evolution of air power from World War I to the modern era. How have advances in technology transformed the role of air forces in warfare? Include specific examples of aircraft, technologies, and strategic doctrines in your answer.",
+    "question": "During a high-risk operation, a platoon loses communication with headquarters just after the Commanding Officer is seriously injured, leaving the second-in-command to take charge; however, the last order given has suddenly become tactically dangerous due to a change in enemy position, while a junior officer urges immediate modification to avoid casualties and others insist on strict obedience to the original command - what should the second-in-command do and why?",
     "maxMarks": 10
   },
   {
     "id": 17,
     "type": "long",
-    "question": "You are an officer in an air force unit and you receive intelligence that a hostile aircraft has entered restricted airspace. Describe the standard response procedure, the chain of command involved, the rules of engagement considerations, and how you would ensure both mission success and the prevention of civilian harm. Justify your decisions at each step.",
+    "question": "For which appointment do you consider yourself the most suitable, and what makes you deserving of that position? Additionally, if you are not selected for your preferred appointment, how would you respond, and what would be your next course of action?",
     "maxMarks": 10
   }
 ]
