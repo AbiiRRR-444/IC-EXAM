@@ -195,7 +195,7 @@ export default function LandingPage() {
         {/* Bottom bar */}
         <div className="border-t border-cyan-500/10 py-3 px-6">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
-            <span className="font-mono text-xs text-metal-600">CLASSIFIED — PRIVATE SERVER SYSTEM OF ABIR FORTYTHREE</span>
+            <span className="font-mono text-xs text-metal-600">CLASSIFIED ; PRIVATE SERVER SYSTEM OF ABIR FORTYTHREE</span>
             <span className="font-mono text-xs text-metal-600">ENC: AES-256 | SESSION MONITORED</span>
           </div>
         </div>
